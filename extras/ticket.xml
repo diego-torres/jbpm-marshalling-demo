@@ -1,13 +1,13 @@
 <?xml version="1.0" ?>
-<map-type>
+<map-type xmlns:ns2="http://acme.org/MarshallingDemo">
   <entries>
     <entry>
       <key>ticketRequest</key>
-      <value>
-        <ticketRequest xmlns="http://acme.org/MarshallingDemo">
-          <title>test title 2</title>
-          <detail>test detail 2</detail>
-        </ticketRequest>
+      <value xsi:type="ns2:TicketRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ns2:TicketRequest>
+          <ns2:title>test title 2</ns2:title>
+          <ns2:detail>test detail 2</ns2:detail>
+        </ns2:TicketRequest>
       </value>
     </entry>
     <!-- Here we could add more entries depending on the process input parameters like: -->
