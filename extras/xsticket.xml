@@ -1,0 +1,9 @@
+<map>
+  <entry>
+    <java.lang.String>ticketRequest</java.lang.String>
+    <org.acme.marshallingdemo.TicketRequest>
+      <title>Ticket Title</title>
+      <detail>A ticket detail given by xstream xml</detail>
+    </org.acme.marshallingdemo.TicketRequest>
+  </entry>
+</map>

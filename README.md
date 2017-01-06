@@ -77,7 +77,17 @@ Please consider the assumptions to customize the below instructions to your part
     curl -X POST -H "Accept: application/xml" -H "Content-Type: application/xml" --user kieserver:kieserver1! -d @ticket.xml \
     http://localhost:8080/kie-server/services/rest/server/containers/ticketing-container/processes/ticketing.ticket-process/instances
     ```
-    
+
+    You can also run an XStream data representation by running:
+
+    ```
+    curl -X POST -H "Accept: application/xml" -H "Content-Type: application/xml" -H "X-KIE-ContentType:xstream" \
+    --user kieserver:kieserver1! -d @xsticket.xml \
+    http://localhost:8080/kie-server/services/rest/server/containers/ticketing-container/processes/ticketing.ticket-process/instances
+    ```
+
+    _Check the file contents for the different formats at extras folder_
+
   3. Check the EAP log to show lines like the following:
 
     ```
