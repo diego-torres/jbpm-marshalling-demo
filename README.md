@@ -25,7 +25,7 @@ Please consider the assumptions to customize the below instructions to your part
   4. Deploy the kjar component to your kie server using the REST API:
   
     ```
-    $ curl -X PUT -H "Accept:application/json" -H "Content-Type:application/json" --user kieserver:kieserver1! \
+    curl -X PUT -H "Accept:application/json" -H "Content-Type:application/json" --user kieserver:kieserver1! \
     -d '{"release-id":{"group-id":"org.acme.marshalling-demo","artifact-id":"ticketing","version":"3.0"}}' \
     "http://localhost:8080/kie-server/services/rest/server/containers/ticketing-container"
     ```
@@ -67,7 +67,7 @@ Please consider the assumptions to customize the below instructions to your part
   2. Launch the business process execution by running:
   
     ```
-    $ curl -X POST -H "Accept: application/json" -H "Content-Type: application/json" --user kieserver:kieserver1! -d @ticket.js \
+    curl -X POST -H "Accept: application/json" -H "Content-Type: application/json" --user kieserver:kieserver1! -d @ticket.js \
     http://localhost:8080/kie-server/services/rest/server/containers/ticketing-container/processes/ticketing.ticket-process/instances
     ```
   3. Check the EAP log to show lines like the following:
