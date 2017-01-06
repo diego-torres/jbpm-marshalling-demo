@@ -4,10 +4,8 @@
     <entry>
       <key>ticketRequest</key>
       <value xsi:type="ns2:TicketRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <ns2:TicketRequest>
-          <ns2:title>test title 2</ns2:title>
-          <ns2:detail>test detail 2</ns2:detail>
-        </ns2:TicketRequest>
+        <ns2:title>test title 2</ns2:title>
+        <ns2:detail>test detail 2</ns2:detail>
       </value>
     </entry>
     <!-- Here we could add more entries depending on the process input parameters like: -->
