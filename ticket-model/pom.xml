@@ -5,7 +5,8 @@
   <version>1.0</version>
   <name>ticket-model</name>
   <description>tocket model xsd components and jaxb annotated for jBPM marshalling demo</description>
-  <build>
+  <!-- USE THESE PLUGINS TO CREATE THE CLASES BASED IN A NEW DEFINITION OF THE XSD MODEL -->
+  <!-- build>
 		<plugins>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
@@ -46,5 +47,5 @@
 				</configuration>
 			</plugin>
 		</plugins>
-	</build>
+	</build -->
 </project>

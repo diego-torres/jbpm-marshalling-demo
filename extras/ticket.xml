@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<map-type>
+  <entries>
+    <entry>
+      <key>ticketRequest</key>
+      <value>
+        <ticketRequest xmlns="http://acme.org/MarshallingDemo">
+          <title>test title 2</title>
+          <detail>test detail 2</detail>
+        </ticketRequest>
+      </value>
+    </entry>
+    <!-- Here we could add more entries depending on the process input parameters like: -->
+    <!-- <entry>
+            <key>age</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">25</value>
+        </entry> -->
+  </entries>
+</map-type>
