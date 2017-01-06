@@ -4,13 +4,13 @@
   The ticketing.ticket-process business process defines a simple "log parameter" task that uses System.out.println script to let us know the received parameters by the kie server API.
   The expected object is a "ticketRequest" custom object with a "Title" and a "Description".
 # Assumptions.
+Please consider the assumptions to customize the below instructions to your particular environment.
   * To begin the usage of this POC, clone the git repository and follow the below instructions.
   * We assume the git clone in the `~/gits/jbpm-marshalling-demo` for the purpose of the below instructions.
   * We assume an unmanaged kie server
   * We assume the `mvn install` uses the same local repository that the kie server is watching.
   * We assume the kie server is deployed to localhost Jboss EAP instance.
   * We assume the existence of a `kieserver` user with `kie-server` and `rest-all` roles and `kieserver1!` password.
-  Please consider the assumptions to customize the below instructions to your particular environment.
 # Build and deploy the assets
   1. Using terminal and maven, build the ticket-model components:
     1. Change working directory to `~/gits/jbpm-marshalling-demo/ticket-model`
